@@ -1,0 +1,379 @@
+body {
+	font-family: baomoi, AvenirNextCondensed-Medium, HelveticaNeue-CondensedBold,
+		sans-serif-condensed, Calibri, Corbel, "Liberation Sans Narrow",
+		"Lohit Odia";
+}
+
+nav {
+	background-color: #2fa1b3;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	height: 42px;
+	align-items: center;
+}
+
+.navbar-nav li {
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar-nav .nav-link {
+	display: block;
+	padding-top: 0.425rem;
+	padding-bottom: 0.425rem;
+	font-size: 14px;
+	color: #ffffff;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	padding: 2px 38px;
+	border-radius: 10px;
+	line-height: 17px;
+}
+
+.navbar-nav li a:hover {
+	color: #e08b6c;
+}
+
+.more-news {
+	display: flex;
+	max-width: 970px;
+	margin: 0 auto;
+}
+
+.news-section {
+	max-width: 625px;
+}
+
+.world {
+	margin-bottom: 8px;
+}
+
+.main-image {
+	width: 100%;
+	border-radius: 5px;
+	object-fit: cover;
+	width: 626px;
+	height: 342px;
+}
+
+.title-post-main {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #212529;
+	font-size: 25px;
+	padding-top: 8px;
+	line-height: 1.2;
+}
+
+.title-post-main:hover {
+	text-decoration: none;
+}
+
+.second-world {
+	display: flex;
+	justify-content: flex-start;
+	margin: 0 -8px;
+}
+
+.list-item {
+	margin: 0 8px;
+	width: calc(33.33% - 16px);
+}
+
+.image-item {
+	border-radius: 5px;
+	object-fit: cover;
+	width: 198px;
+	height: 127px;
+	margin-bottom: 10px;
+}
+
+.image-item:hover {
+	transition: 0.5s;
+	opacity: 0.5;
+}
+
+.title-post-child {
+	text-decoration: none;
+	margin-top: 7px;
+	font-weight: 300;
+	font-size: 14px;
+  line-height: 1.6;
+  color: #212529;
+	font-weight: 600;
+}
+
+.title-post-child:hover {
+	color: #007bff;
+}
+
+
+.third-world {
+	width: 100%;
+}
+
+.world__list-item {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.list-item__image {
+	border-radius: 5px;
+	object-fit: cover;
+	width: 157px;
+	height: 102px;
+}
+
+.list-item__title {
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #212529;
+	margin-left: 15px;
+	font-weight: 500;
+	text-align: left;
+}
+
+
+/* start show four news */
+.related-news {
+	display: flex;
+	justify-content: flex-start;
+	margin: 0 -8px;
+}
+
+.list-item-body {
+	margin: 0 6px;
+	width: calc(25% - 15px);
+}
+
+.image-item-body {
+	object-fit: cover;
+	width: 157px;
+	height: 97px;
+	margin-bottom: 10px;
+}
+
+.list-item:first-child .image-item-body:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.list-item:last-child .image-item-body:last-child {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+/* end show four news */
+
+
+/* start show 8 news next */
+.list-news {
+	width: 625px;
+}
+
+.list-news__list-item {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.list-news__list-item {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.list-item__image {
+	border-radius: 5px;
+	object-fit: cover;
+	width: 157px;
+	height: 102px;
+}
+
+/* and show 8 news next */
+
+
+
+
+
+
+
+
+
+
+
+
+.news-red-popular {
+	max-width: 330px;
+	flex-grow: 1;
+	margin-left: 16px;
+}
+
+.recent-news:not(:last-child) {
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+
+.recent-news {
+	display: flex;
+	/* align-items: center; */
+	/* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
+	margin-bottom: 15px;
+}
+
+.recent-news a {
+	text-decoration: none;
+	padding-bottom: 16px;
+	color: #212529;
+	font-size: 14px;
+	line-height: 1.6;
+	font-weight: 600;
+}
+
+.recent-news img {
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.recent-news__title {
+	margin-left: 12px;
+	text-align: left;
+}
+
+.recent-news__created-at {
+	font-size: 10px; 
+	color: #adb5bd;
+}
+
+.recent-news:hover img {
+	opacity: 0.5;
+	transition: 0.5s;
+}
+
+.recent-news:hover a {
+	color: #007bff;
+} 
+
+
+/* start adverting */
+.category-title {
+	color: red;
+	font-size: 20px;
+}
+
+
+.body__read-more {
+	max-width: 330px;
+	flex-grow: 1;
+	margin-left: 16px;
+}
+
+.mt {
+	margin-top: 40px;
+} 
+
+.adverting {
+	width: 100%;
+	height: auto;
+	margin-bottom: 60px;
+}
+
+.adverting__image {
+	max-width: 300px;
+	object-fit: cover;
+}
+
+/* end adverting */
+
+
+
+
+
+/* start footer */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+	line-height: 1.5;
+	font-family: "Poppins", sans-serif;
+}
+
+.footer {
+	background-color: white;
+	padding: 70px 0;
+	margin-top: 50px;
+}
+
+.container {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-col {
+	width: 25%;
+	padding: 0 15px;
+}
+
+.footer-col h4 {
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+ul {
+	list-style: none;
+}
+
+.footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 300;
+	display: block;
+	transition: all 0.3s ease;
+	color: black;
+}
+
+.footer-col ul li a:hover {
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.social-links {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5%;
+	justify-content: space-between;
+}
+/* end footer */ 
